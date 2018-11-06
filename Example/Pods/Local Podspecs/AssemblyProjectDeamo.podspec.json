@@ -1,0 +1,22 @@
+{
+  "name": "AssemblyProjectDeamo",
+  "version": "0.1.0",
+  "summary": "A short description of AssemblyProjectDeamo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/joinGitWenze/AssemblyProjectDeamo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "joinGitWenze": "1910674927@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/joinGitWenze/AssemblyProjectDeamo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AssemblyProjectDeamo/Classes/**/*"
+}

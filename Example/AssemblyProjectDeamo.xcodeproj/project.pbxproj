@@ -38,11 +38,10 @@
 
 /* Begin PBXFileReference section */
 		042A54DC8ABC5ED8D435A08D /* Pods_AssemblyProjectDeamo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssemblyProjectDeamo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AC0C7E5E3F421665F93FE96 /* AssemblyProjectDeamo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AssemblyProjectDeamo.podspec; path = ../AssemblyProjectDeamo.podspec; sourceTree = "<group>"; };
+		1AC0C7E5E3F421665F93FE96 /* AssemblyProjectDeamo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AssemblyProjectDeamo.podspec; path = ../AssemblyProjectDeamo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		251D7D046334FFAE0C8D5D6A /* Pods-AssemblyProjectDeamo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssemblyProjectDeamo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssemblyProjectDeamo_Tests/Pods-AssemblyProjectDeamo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		393CA4145AC42607DCD304C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		468D8D185EA55975AC564E59 /* Pods_AssemblyProjectDeamo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssemblyProjectDeamo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		496D8F0132EC2C564CC4B1DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		496D8F0132EC2C564CC4B1DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		593A49B8345B41354013D8F0 /* Pods-AssemblyProjectDeamo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssemblyProjectDeamo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssemblyProjectDeamo_Example/Pods-AssemblyProjectDeamo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AssemblyProjectDeamo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssemblyProjectDeamo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -179,7 +178,6 @@
 			isa = PBXGroup;
 			children = (
 				1AC0C7E5E3F421665F93FE96 /* AssemblyProjectDeamo.podspec */,
-				393CA4145AC42607DCD304C0 /* README.md */,
 				496D8F0132EC2C564CC4B1DA /* LICENSE */,
 			);
 			name = "Podspec Metadata";
@@ -300,15 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AssemblyProjectDeamo_Example-checkManifestLockResult.txt",
 			);
@@ -322,8 +316,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AssemblyProjectDeamo_Tests/Pods-AssemblyProjectDeamo_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
@@ -332,8 +324,6 @@
 				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta_Snapshots.framework",
@@ -350,15 +340,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AssemblyProjectDeamo_Example/Pods-AssemblyProjectDeamo_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AssemblyProjectDeamo/AssemblyProjectDeamo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AssemblyProjectDeamo.framework",
 			);
@@ -372,15 +358,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AssemblyProjectDeamo_Tests-checkManifestLockResult.txt",
 			);
